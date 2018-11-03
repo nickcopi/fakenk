@@ -1,0 +1,18 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+<link rel="stylesheet" href="resources/main.css">
+</head>
+<body>
+	{{> header}}
+	<h1>Login</h1>
+	<h3 style="color:red;display:{{display}}">{{error}}</h3>
+	<form method="POST" action="/login">
+		<input placeholder="Username" name="username"></input><br>
+		<input placeholder="Password" name="password" type="password"></input><br>
+		<input type="submit" value="Login">
+	</form>
+
+</body>
+</html>

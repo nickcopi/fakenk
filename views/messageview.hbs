@@ -9,7 +9,9 @@
 	<h2>Messages</h2>
 	{{#each messages}}
 		<div>
-			{{this.username}}: {{this.message}}		
+			<b>{{this.username}}:</b>
+{{{this.message}}}
+			<br>
 		</div>
 	{{/each}}
 	<form method = "POST" action = "/send_message">

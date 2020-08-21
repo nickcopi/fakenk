@@ -1,0 +1,6 @@
+{
+	"name":"Botnet Site",
+	"tags":["Cyber","Websites"],
+	"description":"A custom website usable as a command and control server for a web based botnet where communication is done through user private messages.",
+	"date":"September 2019"
+}
